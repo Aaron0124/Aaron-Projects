@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+CSS STARTS HERE
+#main {
+  text-align: center;
+  background-color: #F0F8FF;
+}
+}
+}
+#title {}
+#description {
+  
+}
+#image {
+  width: 30%;
+  max-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption {} 
+#survey-form
+#name {}
+#email {}
+#age {}
+#name-label {}
+#email-label {}
+#number-label {}
+#dropdown {}
+#comments {}
+
+CSS ENDS HERE
+
+
+
+
+<div id="main"> 
+  
+  <h1 id="title">Fallout76 Survey Form</h1> 
+  
+  <p id="description">This is a survey form regarding your preferences when presented with hypothetical situations in Fallout76</p>
+
+  
+  <img id="image" src="https://cdn.gamer-network.net/2018/articles/2018-06-13-16-37/300_years.jpg">
+  </img>
+  <h5 id="img-caption">Fallout76 mountain region</h5>
+ 
+  <form id="survey-form" action="/data-to-this-url">
+    
+    <label for="name" id="name-label">Name:</label>
+    <input id="name" type="text" placeholder="Enter your name" required>
+    
+    
+    <br><br>    
+    
+    <label for="email" id="email-label">Email:</label>
+    <input id="email" type="email" placeholder="Enter your email" required>
+    
+
+    <br><br>
+    
+    <label for="number" id="number-label">Age:</label>
+    <input id="number" type="number" placeholder="Enter your age" min="1" max="1000" required>
+    
+    
+    <br><br>
+    
+    <label for="dropdown">If I were only allowed to use one of the rifles for the entire duration of the game, I would use the...</label>
+    <select id="dropdown">
+      <option value="--">--</option>
+      <option value="Assault Rifle">Assault Rifle</option>
+      <option value="Black Power Rifle">Black Power Rifle</option>
+      <option value="Gauss Rifle">Gauss Rifle</option>
+      <option value="Hunting Rifle">Hunting Rifle</option>
+      <option value="Laser Rifle">Laser Rifle</option>
+      
+    </select>
+    
+    <br><br>
+    
+   
+  
+    <label for="travel">Preferred cloak-type:</label><br>
+      <input id="travel" type="radio" name="outfit" value="1">Power-armor</input>
+    
+      <input id="travel" type="radio" name="outfit" value="2">Wearable armor and clothes</input>
+    
+      <input id="travel" type="radio" name="outfit" value="3">Clothes only</input>
+
+<br><br>
+    
+<label for="pickup">Which of these would you pickup with your typical mid-game-full-inventory (you may select more than one):</label><br>
+<input id="pickup" type="checkbox" value="1">Tin Can</input>
+<input id="pickup" type="checkbox" value="2">Ushanka Hat</input>
+<input id="pickup" type="checkbox" value="3">Purified water</input>
+<input id="pickup" type="checkbox" value="4">Laser Pistol</input>
+<input id="pickup" type="checkbox" value="5">Rodent-meat</input>
+<input id="pickup" type="checkbox" value="6">None</input>
+<br><br>
+<label for="comments">Additional comments:</label><br>
+<textarea id="comments" rows="4" cols="50" maxlength="100"></textarea></input><br><br>
+
+<button type="submit" id="submit">Submit</button>
+  
+</form> 
+
+</div>

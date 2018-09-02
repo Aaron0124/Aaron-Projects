@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+CSS STARTS HERE
+
+body {
+background-color: black
+}
+
+#heading1 {
+  color: #47b200;
+}
+#image1 {
+  height: 200px;
+}
+#list {
+  color: #47b200;
+}
+#all-sections-div {
+  color: #47b200;
+}
+#nav_header {
+  font-size: 16px;
+}
+#section_header {
+  font-size: 26px;
+}
+}
+#navbar {
+  text-align: left;
+  position: fixed;
+}
+@media (min-width: 50px) {
+  .page-title {
+    color: #47b200;
+}
+  
+  
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+  background: #47b200;
+  } 
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  text-align: left;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px  
+  position: relative;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: Uppercase;
+  font-size: 18px;
+}
+nav a:hover {
+  color: #47b200;
+}
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #47b200;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+  width: 7%;
+}
+
+CSS ENDS HERE......................................
+
+<div id="all">
+<header id="header">
+  <div class="container">
+    <nav id=whitenav>
+      <ul>
+        <li><a href="#section_1">Section 1</a></li>
+        <li><a href="#section_2">Section 2</a></li>
+        <li><a href="#section_3">Section 3</a></li>
+        <li><a href="#section_4">Section 4</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main-doc"> 
+  
+  <div id="heading1"><h1>How to become a programmer from little to no experience</h1></div>
+  
+  <div><img id="image1" src="https://cdn-images-1.medium.com/max/1600/1*WZZ9OWp3QJjcswTITitJKw.jpeg"</div>
+ 
+  
+ <div id="list">
+   <p>How to become a programmer:
+     <ul>
+       <li>Research what a programmer does</li>
+       <li>Find out what is required to be a programmer</li>
+       <li>Start learning exactly what will get you a job as a programmer (be specific in your learning)</li>
+       <li>Code everyday (I reccommend getting the first two certificates from freecodecamp.org)</li>
+       <li>Never give up</li>
+       <li>Never give in</li>
+       <li>Keep going until you get all the certificates if you have to (freecodecamp.org)</li>
+       <li>The only thing that will stop you is having no will</li>
+       <li>As Bruce Lee once said: "There is no weapon more deadly than the will"
+       <li>Get it son!
+      <ul>
+        </p></div>
+  <br><br>
+<div id="all-sections-div">
+ <section id="section_1">
+ <div id="section_header">Section 1</div>
+         <br>
+    <p>Section 1 text A<br><br><code>x = 5;<br>
+y = 6;<br>
+z = x + y;
+</code></p>
+    <br>
+    <p>Section 1 text B<br><br><code>x = 5;<br>
+y = 6;<br>
+z = x + y;
+</code></p>
+</section>
+  
+  <br>
+  <section id="section_2">
+    <div id="section_header">Section 2</div>
+    <br>
+    <p>Section 2 text A<br><br><code>x = 5;<br>
+y = 6;<br>
+z = x + y;
+</code></p>
+    <br>
+    <p>Section 2 text B</p>
+  </section>
+  
+  <br>
+  
+  <section id="section_3">
+    <div id="section_header">Section 3</div>
+    <br>
+    <p>Section 3 text A</p>
+    <br>
+    <p>Section 3 text B</p>
+  </section>
+  
+  <br>
+  
+  <section id="section_4">
+    <div id="section_header">Section 4</div>
+    <br>
+    <p>Section 4 text A</p>
+    <br>
+    <p>Section 4 text B</p>
+ </section>
+   </div>
+  <br>
+  
+</main>

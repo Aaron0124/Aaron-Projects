@@ -1,0 +1,76 @@
+<!DOCTYPE html><br>
+
+CSS BEGINS HERE
+
+body {
+  background-color: #a3d5d3;
+  font-family: 'Roboto', sans-serif;
+}
+#img-div {
+  
+}  
+#main {
+  
+}
+#title {
+  
+}
+#image {
+  display: block;
+  width: 50%;
+  height: auto;
+  max-width: 1200px;
+  max-height: 625px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption {
+   
+}
+#tribute-info {
+  
+}
+#tribute-link {
+  
+}
+
+CSS ENDS HERE
+
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<div id="main" class="text-center">
+
+  
+  <h1 id="title">Bruce Lee</h1>
+    <h5>
+      <br>
+        Actor
+      <br>
+       Martial-Artist
+      <br>
+        Philosopher
+      <br>
+       Writer
+      <br>
+      <br>
+    </h5>
+  
+ <div id="img-div">   
+    <a target="_blank" href="https://www.brucelee.com/" id="tribute-link"> <img id="image"  src="https://cdn.shopify.com/s/files/1/0665/7895/files/col_BL.jpg?5788331761803984328" alt="bruce lee behind his own quote"></img></a>
+<br>   
+<h7 id="img-caption">Bruce Lee behind a quote of his</h7>
+  </div>
+  <br>
+    
+<div class='text-left' id="tribute-info">
+      
+      <p>Lee Jun-fan (Chinese: 李振藩; November 27, 1940 – July 20, 1973), known professionally as Bruce Lee (Chinese: 李小龍), was a Hong Kong and American actor, film director, martial artist, martial arts instructor, philosopher, and founder of the martial art Jeet Kune Do, one of the wushu or kungfu styles. Lee was the son of Cantonese opera star Lee Hoi-chuen. He is widely considered by commentators, critics, media, and other martial artists to be one of the most influential martial artists of all time and a pop culture icon of the 20th century. He is often credited with helping to change the way Asians were presented in American films.</p>
+  
+  <a href='https://www.maxim.com/maxim-man/remember-dragon-10-bad-ass-bruce-lee-facts-2015-11' target='_blank'>Click here for more information about Bruce Lee.</a>
+
+</div>
+</div>
